@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
-  "version": "${version}",
+  "id": "dunexonfirstmod",
+  "version": "1.0-SNAPSHOT",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "The First Mod",
+  "description": "This is the my first mod!",
   "authors": [
-    "Me!"
+    "DUNEXON"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -14,12 +14,12 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/dunexonfirstmod/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.dunexon.dunexonfirstmod.FirstMod"
     ]
   },
   "mixins": [
